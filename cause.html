@@ -16,20 +16,44 @@
     </style>
 
 <link rel="stylesheet" href="style.css">
+<script>
+ 
+    window.addEventListener("keyup", checkKeyPress, false);
+    function checkKeyPress(key) {
+     if (key.keyCode == "37") {
+     alert("The 'a' letter key has been pressed.");
+     }
+     if (key.keyCode == "38") {
+     alert("The 'a' letter key has been pressed.");
+     }
+     if (key.keyCode == "39") {
+     alert("The 'a' letter key has been pressed.");
+     }
+     if (key.keyCode == "40") {
+     alert("The 'a' letter key has been pressed.");
+     }
+    }
+     
+    </script>
+
 </head>
   
 <body>
+    <!-- Navbar-->
     <div data-include="nav"></div>
     <!--Whole page container div-->
     <div class="container">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="scripts.js"></script>
-        
+    
+    <!--moving square-->
     <center>
         <h1 style="color:green;"> 
          Main Causes
         </h1>
+
+        <h1>Move arrow keys and release for a quick cause for climate change thx :)</h1>
         <div class="box">Move me to a square</div>
         <script type="text/javascript">
             $(document).keydown(function(e) {
@@ -63,6 +87,8 @@
         </script>
     </center>
 
+    
+    
     
 </body>
 </html>           
