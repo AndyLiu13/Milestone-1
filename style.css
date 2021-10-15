@@ -4,18 +4,31 @@
 }
 
 .center{
-    display: block;
+  display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
 
 .climate{
-  color:blue
+  text-align: center;
+  color:red
 }
 
 .def{
   font-weight: bold;
+  text-align: center;
+  font-size: xx-large;
+  color: white;
+}
+
+.question{
+  font-weight: bold;
+  color:white
+}
+
+.login{
+  color:white
 }
 
 .box {
@@ -25,7 +38,6 @@
   width: 100px;
   height: 100px;
   border-radius: 100%;
-  color: red4;
   font-size: 24px;
   border: 1px solid #000000;
   text-align: center;
